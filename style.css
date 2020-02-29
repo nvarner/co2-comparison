@@ -1,0 +1,67 @@
+#splash {
+    background-color: #474747;
+    position: absolute;
+    width: 100%;
+    height: 400vh;
+    color: #ffffffc2;
+    text-align: center;
+    top: 0;
+}
+
+#splash > h1 {
+    margin-top: 30vh;
+    font-size: 800%;
+}
+
+#splash > p {
+    margin-top: 80vh;
+    font-size: 200%;
+}
+
+#splash.raise {
+    top: -400vh;
+    transition-property: bottom;
+    transition-duration: 1s;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+}
+
+input {
+    height: 1.5em;
+    width: 3em;
+    font-size: 100%;
+    text-align: center;
+}
+
+#big {
+    margin: auto;
+    font-size: 400%;
+    text-align: center;
+    line-height: 2;
+}
+
+a {
+    background-color: #db1d1de0;
+    padding: 20px;
+    font-size: 150%;
+    color: white;
+}
+
+a:hover {
+    background-color: #db1d1df5;
+}
+
+a:active {
+    background-color: #db1d1dbb;
+}
